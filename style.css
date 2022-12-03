@@ -45,6 +45,8 @@
     padding-top: 30px;
     color: white;
     text-align: center;
+    width: 1400px;
+    margin: auto;
 }
 
 .icons {
@@ -119,4 +121,53 @@
     padding-bottom: 15px;
     font-size: 55px;
     color: #0280ed;
+}
+
+.grey-bg {
+    margin-top: 50px;
+    background-color: #edeef0;
+    width: 100%;
+    height: 660px;
+    color: #595959;
+}
+
+.in-bg h1 {
+    text-align: center;
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.in-bg p {
+    font-size: 20px;
+    padding-top: 1%;
+    background-color: #edeef0;
+    text-align: center;
+    width: 600px;
+    justify-content: center;
+    display: center;
+    margin: auto;
+}
+
+.cards-section {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards-section1 {
+    width: 220px;
+}
+
+.onclick {
+    color: #e3a405;
+    cursor: pointer;
+}
+
+.cards-section1 p {
+    padding-top: 5px;
+}
+
+.cards-section1 h4 {
+    font-size: 28px;
 }
