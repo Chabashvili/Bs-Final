@@ -5,12 +5,12 @@
 }
 
 .kerr {
-    color: orange;
+    color: #e3a405;
     display: inline-block;
 }
 
 #homie {
-    color: orange;
+    color: #e3a405;
 }
 
 #sizes {
@@ -82,4 +82,41 @@
     display: flex;
     padding-top: 115px;
     cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    justify-content:space-around;
+    padding-top: 50px;
+}
+
+.card1 {
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#card-icon {
+    padding-bottom: 15px;
+    font-size: 55px;
+    color: #0280ed;
+}
+
+#card-icon2 {
+    padding-bottom: 15px;
+    font-size: 55px;
+    color: #d0db02;
+}
+
+#card-icon3 {
+    padding-bottom: 15px;
+    font-size: 55px;
+    color: orange;
+}
+
+#card-icon4 {
+    padding-bottom: 15px;
+    font-size: 55px;
+    color: #0280ed;
 }
