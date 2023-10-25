@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .kerr {
     color: #e3a405;
     display: inline-block;
@@ -53,32 +57,32 @@
 
 .icons {
     cursor: pointer;
-    padding-top: 70px;
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
     gap: 50px;
-    margin-left: 640px;
-    /* margin: auto;
-    justify-content: center; */
-}
+  }
+  
+  .button {
+    padding: 10px 20px;
 
-.icon1 {
-    background-color: orange;
-    padding: 20px;
-    border-radius: 40px;
-    width: 178px;
-    color: white;
-    margin: auto;
-}
-
-.icon2 {
-    border: 0.5px solid orange;
-    padding: 20px;
-    border-radius: 40px;
-    width: 178px;
-    color: orange;
-    margin: auto;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
     text-align: center;
-}
+  }
+
+  .icon1 {
+    border: 1px solid orange;
+  }
+
+  .icon2 {
+    margin-top: 15px;
+    border: 1px solid orange;
+  }
 
 #scroll {
     color: white;
